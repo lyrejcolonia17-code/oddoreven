@@ -1,0 +1,8 @@
+#this asks the user for the number
+number = int(input("Enter a number: "))
+
+#this identifies the number if even or odd to the user
+if number % 2 == 0:
+    print("Number is even")
+else:
+    print("Number is odd")
